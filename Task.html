@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task page </title>
+</head>
+<body>
+    <p2> Addiiton Program : </p2>
+    <script>
+        let a=10;
+        let b=20;
+        let c=a+b;
+        document.write(c , "<br>");
+    </script>
+    <p2> Substraction Program : </p2>
+    <script>
+
+        let d=20;
+        let e=10;
+        let f=d-e;
+        document.write(f,"<br>");
+    </script>
+    <p2>Multipication Program : </p2>
+    <script>
+        let g=20;
+        let h=30;
+        let i=g*h;
+        document.write(i , "<br>");
+    </script>
+<p2>Division Program : </p2>
+    <script>
+        let j=20;
+        let k=30;
+        let l=j%k;
+        document.write(l , "<br>");
+    </script>
+<p2>Modulo Program : </p2>
+    <script> 
+        let m=20;
+        let n=30;
+        let o=m%n;
+        document.write(o , "<br>");
+    </script>
+    <p2>Prime Program :- <br></p2>
+    <script>
+     let num = 30;
+let isPrime = true;
+
+if (num <= 1) {
+    isPrime = false; 
+} else if (num === 2) {
+    isPrime = true; 
+} else if (num % 2 === 0) {
+    isPrime = false; 
+} else {
+    for (let i = 3; i * i <= num; i += 2) {
+        if (num % i === 0) {
+            isPrime = false;
+            break; 
+        }
+    }
+}
+if (isPrime) {
+    document.write("Given Number is Prime : " ,num, "<br>");
+} else {
+    document.write("Given Number is Not Prime : " ,num , "<br>");
+}
+    </script>
+
+<p2>Maximum Program :-</p2>
+<script> 
+     let jay=22;
+        let viru=20;
+        if(jay>viru)
+    {
+        document.write("Jay is Older than Viru <br>");
+    }
+    else{
+        document.write("Viru is Older than Jay <br>");
+    }
+
+</script>
+</body>
+</html>
